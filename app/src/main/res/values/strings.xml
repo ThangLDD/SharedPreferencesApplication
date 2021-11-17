@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SharedPreferencesApplication</string>
+    <string name="tieng_anh">Tiếng Anh</string>
+    <string name="tieng_viet">Tiếng Việt</string>
+    <string name="chon_ngon_ngu_hien_thi">Chọn ngôn ngữ hiển thị:</string>
+    <string name="luu">Lưu</string>
+    <string name="internal_file">Internal File</string>
+    <string name="external_file">External File</string>
+    <string name="nhap_ho_ten">Nhập họ tên</string>
+    <string name="nhap_ma_sinh_vien">Nhập mã sinh viên</string>
+    <string name="ghi_vao_internal">Ghi vào internal storage</string>
+    <string name="doc_tu_internal">Đọc từ internal storage</string>
+    <string name="ghi_du_lieu">Ghi dữ liệu</string>
+    <string name="ghi_vao_external_storage">Ghi vào external storage</string>
+    <string name="doc_tu_external_storage">Đọc từ external storage</string>
+    <string name="read_internal_storage">Read Internal Storage</string>
+    <string name="hien_du_lieu">Hiện dữ liệu</string>
+    <string name="quay_lai_ghi_du_lieu">Quay lại ghi dữ liệu</string>
+    <string name="read_external_storage">Read External Storage</string>
+    <string name="tro_ve_mainactivity">Trở về MainActivity</string>
+</resources>

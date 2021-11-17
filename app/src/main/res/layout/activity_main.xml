@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_20"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chon_ngon_ngu_hien_thi"
+        android:textSize="@dimen/sp_20" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_button_vietnamese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tieng_viet"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_20" />
+
+        <RadioButton
+            android:id="@+id/radio_button_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tieng_anh"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_20" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@color/blue"
+        android:text="@string/luu" />
+
+    <TextView
+        android:id="@+id/text_view_show_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_20" />
+
+    <Button
+        android:id="@+id/button_write_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@color/blue"
+        android:text="@string/ghi_du_lieu" />
+
+</LinearLayout>
